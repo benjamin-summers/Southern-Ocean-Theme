@@ -1,0 +1,581 @@
+/*
+    #UNIVERSAL STYLES
+    #NAVBAR STYLES
+    #HOME PAGE/INDEX.PHP STYLES
+    #SHOP PAGE STYLES
+    #WOOCOMMERCE SPECIFIC THEME OVERIDES/STYLES
+        #SHOP PAGE STYLES
+        #PRODUCT PAGE STYLES
+        #CART PAGE STYLES
+        #CHECKOUT PAGE STYLES
+        #LOGIN PAGE SYTLES
+        #SIGN UP PAGE STYLES
+        #ACCOUNT DASHBOARD STYLES
+        #ACCOUNT ORDERS STYLES
+        #ACCOUNT DOWNLOADS STYLES
+        #ACCOUNT ADDRESSES STYLES
+        #ACCOUNT DETAILS STYLES
+        #ACCOUNT LOGOUT STYLES
+    #MEDIA QUERIES / RESPONSIVE
+*/
+
+/* ################################ UNIVERSAL STYLES ################################## */
+body {
+    background-image: url("/wp-content/themes/southernOcean/images/curls.png");
+    overflow-x: hidden;
+    margin: auto;
+}
+
+/* ################################ NAVBAR STYLES ################################## */
+nav.navbar {
+    background-color: #070707;
+}
+
+ul.navbar-nav {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+img.navbar-img {
+    height: 100px;
+    background-color: transparent;
+    width: 50%;
+    margin-left: 25%;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+li.nav-item a {
+    color: white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+div.dropdown-menu {
+    background-image: url("/wp-content/themes/southernOcean/images/curls.png");
+}
+
+div.dropdown-menu a {
+    text-align: center;
+    color: white;
+}
+
+div.dropdown-menu a:hover {
+    color: #1b1b1b;
+    opacity: 0.6;
+}
+
+span.navbar-toggler-icon {
+    background-color: white;
+    color: black;
+}
+
+div.parallax { 
+    /* The image used */
+    background-image: url("/wp-content/themes/southernOcean/images/home-image.jpg");
+
+    /* Set a specific height */
+    height: 350px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ################################ HOME PAGE STYLES ################################## */
+h1.featured-products {
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: center;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+img {
+  width: 100%;
+  height: auto;
+	padding: 5px;
+}
+
+h2 {
+  text-align:center;
+	padding-bottom: 1em;
+}
+
+div.slider.responsive div>a>img {
+    height: 200px;
+}
+
+.slick-dots {
+	text-align: center;
+  margin: 0 0 10px 0;
+  padding: 0;
+    color: white;
+}
+
+.slick-dots li {
+     display:inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.slick-dots  button {
+      font: 0/0 a;
+      text-shadow: none;
+      color: transparent;
+      background-color:#999;
+      border:none;
+      width: 15px;
+      height: 15px;
+      border-radius:50%;
+    }
+
+div.parallax1 { 
+    /* The image used */
+    background-image: url("/wp-content/themes/southernOcean/images/nz.jpeg");
+
+    /* Set a specific height */
+    height: 80px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3.pau-header {
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 1px solid white;
+}
+
+p.pau-body {
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+img.pau-img {
+    margin-top: 10px;
+    padding: 30px;
+    background-color: white;
+    border: 3px solid blue;
+    height: 255px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* ################################ SHOP PAGE STYLES ################################## */
+h2.page-title {
+    text-align: center;
+    border-bottom: 1px solid white;
+    color: white;
+    margin-top: 15px;
+}
+
+div.container-fluid.shopPage {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+div.container-fluid.shopPage img {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15px;
+    height: 200px;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+/* ################################ WOOCOMMERCE SPECIFIC STYLES ################################## */
+
+/*---------------------------------------------------------------------------------------*/
+
+
+
+/* ################################ SHOP PAGE STYLES ################################## */
+
+h1.page-title {
+    display: none;
+}
+
+form-woocommerce-product-search {
+    width: 100%;
+}
+
+input#woocommerce-product-search-field-0.search-field {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 1%;
+}
+
+p.woocommerce-result-count {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+
+span.onsale {
+    display: none;
+}
+
+li.product.type-product {
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: #dcd6ed;
+    padding-bottom: 35px;
+}
+
+ul.products.columns-4 {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+}
+
+a.woocommerce-LoopProduct-link.woocommerce-loop-product__link div.star-rating {
+    display: none;
+}
+
+div.wcps-items-rating {
+    background-color: #dcd6ed;
+}
+div.layer-content {
+    background-color: white;
+}
+
+div.wcps-items-title {
+    background-color: #e8896e;
+}
+
+img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail.wp-post-image:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2.woocommerce-loop-product__title {
+    font-size: 1.5em !important;
+    text-align: center;
+    color: #00ffff;
+    background-color: #e8896e;
+    margin: 0;
+    padding: 0;
+}
+
+span.price {
+    color: #b74f49 !important;
+    background-color: pink;
+    font-size: 2em;
+    -webkit-text-stroke: .5px black;
+}
+
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    color: white;
+    background-color: lightblue;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+p.product.woocommerce.add_to_cart_inline a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+div.woocommerce-message {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+a.button.wc-forward {
+    background-color: slategray;
+    color: white;
+    padding: 5px;
+}
+
+nav.woocommerce-pagnation {
+    background-color: white;
+    width: 100%;
+}
+
+ul.page-numbers {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+ul.page-numbers li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+a.added_to_cart.wc-forward {
+    color: navajowhite;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 9px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* ################################ PRODUCT PAGE STYLES ################################## */
+
+div.summary.entry-summary {
+    text-align: center;
+}
+
+h1.product_title.entry-title {
+    color: white;
+    text-decoration: underline;
+}
+
+p.price {
+    color: #b74f49 !important;
+    background-color: pink;
+    font-size: 2em;
+    -webkit-text-stroke: .5px black;
+}
+
+div.woocommerce-product-details__short-description {
+    color: white;
+}
+
+form.cart {
+    background-color: #dcd6ed;
+}
+
+div.quanity {
+    width: 10%;
+}
+
+div.product_meta {
+    background-color: white;
+}
+
+button.single_add_to_cart_button.button.alt {
+    width: 90%;
+    float: right;
+}
+
+h2.woocommerce-Reviews-title {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #b74f49;
+}
+
+p.woocommerce-noreviews {
+    color: #ac5896;
+    text-align: center;
+}
+
+div#respond.comment-respond {
+    color: white;
+    text-align: center;
+}
+
+p.stars span>a{
+    color: yellow;
+}
+
+div.comment-text div.description {
+    color: white;
+}
+
+a.woocommerce-review-link {
+    color: white;
+}
+
+/* ################################# CART PAGE STYLES ##################################### */
+a img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail.wp-post-image {
+    height: 200px;
+    width: 200px;
+}
+
+form.woocommerce-cart-form {
+    background-color: #1b1b1b;
+}
+
+td.product-name a {
+    color: whitesmoke;
+}
+
+input#coupon_code.input-text {
+    width: 100%;
+    margin-top: 5px;
+}
+
+td.actions button.button {
+    background-color: whitesmoke;
+    opacity: 1 !important;
+    color: #1b1b1b !important;
+    width: 50%;
+    margin-top: 20px;
+    padding: 15px !important;
+}
+
+div.coupon button.button {
+    width: 100%;
+    background-color: #1b1b1b;
+    color: lightgrey !important;
+}
+
+a.restore-item {
+    float: right;
+    color: #1b1b1b;
+}
+
+p.cart-empty {
+    font-size: 25px;
+    text-align: center;
+    background-color: #1b1b1b;
+}
+
+
+p.return-to-shop a.button.wc-backward {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    background-color: #1b1b1b;
+    color: whitesmoke;
+}
+
+/* ################################ Account Dashboard ############################### */
+
+nav.woocommerce-MyAccount-navigation {
+    width: 100% !important;
+    text-align: center;
+}
+
+nav.woocommerce-MyAccount-navigation ul {
+    padding: 0;
+    list-style-type: none;
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+nav.woocommerce-MyAccount-navigation ul>li {
+    display: inline-block;
+    background-color: #1b1b1b;
+    padding: 10px;
+}
+
+nav.woocommerce-MyAccount-navigation ul>li>a {
+    color: whitesmoke;
+}
+
+div.woocommerce-MyAccount-content {
+    width: 100% !important;
+}
+
+div.woocommerce-MyAccount-content p>a {
+    color: whitesmoke;
+}
+
+/*Account Details*/
+
+div.woocommerce-MyAccount-content button.woocommerce-Button.button {
+    width: 100%;
+    background: 
+}
+
+div.woocommerce-MyAccount-content p {
+    text-align: center;
+}
+
+a.edit {
+    color: whitesmoke;
+}
+
+/*Login*/
+form.woocommerce-form.woocommerce-form-login.login p>label {
+    color: whitesmoke;
+}
+
+form.woocommerce-form.woocommerce-form-login.login p.form-row>button.woocommerce-Button.button {
+    margin-top: 10px;
+    width: 80%;
+}
+
+form.woocommerce-form.woocommerce-form-login.login p.form-row>label.woocommerce-form__label.woocommerce-form__label-for-checkbox.inline {
+    width: 20%;
+    position: relative;
+    top: 15px;
+    left: 5px;
+}
+
+p.woocommerce-LostPassword.lost_password, a {
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+/* ################################ MEDIA QUERIES/RESPOSIVE STYLES ################################## */
+
+@media screen and (min-width: 1023px) {
+    /* ==================== navbar media styles ================== */
+    ul.navbar-nav {
+    margin-left: 36.5%;
+    margin-right: 36.5%;
+    text-align: center;
+    }
+    
+    div.parallax {
+        height: 550px;
+    }
+    
+    /* ======================= home page styles  ==================== */
+    
+    p.pau-body {
+        font-size: 12px;
+    }
+
+    
+}
+
+
+@media screen and (min-width: 1280px) {
+    /* ========================== navbar media styles ========================= */
+    ul.navbar-nav {
+    margin-left: 39.3%;
+    margin-right: 39.3%;
+    text-align: center;
+    }
+    
+    div.parallax {
+        height: 575px;
+    }
+    
+    /* ============================ home page styles ============================ */
+    
+    p.pau-body {
+        font-size: 16px;
+    }
+    
+}
